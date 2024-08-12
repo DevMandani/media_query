@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+.container{
+   
+    width:100%;
+    border:1px solid red ;
+    margin:auto;
+    max-width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-4{
+    border:1px solid green;
+    height:200px;
+    width:25%;
+}
+.w-4:first-child{
+    background-color: orange;
+}
+.w-4:nth-child(2){
+    background-color: aqua;
+}
+.w-4:nth-child(3){
+    background-color: black;
+}
+.w-4:last-child{
+    background-color: blue;
+}
